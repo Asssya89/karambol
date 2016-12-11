@@ -1,0 +1,61 @@
+</head>
+<body>
+  <h1>CV</h1>
+  <!-- specially for Anton -->
+  
+    
+<img src="https://pp.vk.me/c637127/v637127763/926f/hPRmdk6POrk.jpg" />
+  
+  <p>Software Tester</p>
+
+  <p>Personal information:</p>
+  <ul>
+    <li>Name:	Anastaiya Konyaeva</li>
+    <li>Address:	321 Studencheskaya Street, Novosibirsk, 630123, Russia</li>
+    <li>Phone number mobile: +7---</li>
+    <li>Marital status:	Single</li>
+    <li>Date of birth:	27th December 1989</li>
+    <li>Nationality:	Russian</li>
+    <li>Email:	konyaeva89@ngs.ru</li>
+  </ul>
+  <p>Objective</p>
+  <ul>
+    <li>I am looking for a position as a Software Tester for a growing company.</li>
+   
+  </ul>
+   <p>Education</p>
+  <ul>
+    <li>Siberian State University of Telecommunications and Informatics, department of Mobile radio and multimedia, Engineer degree in  Radio Engineering</li>
+  </ul>
+     <p>Qualifications</p>
+  
+<ul>
+    <li>December 2016; Software testing courses at the IT-Academy Alexey Sukhorukov, Novosibirsk, Russia</li>
+  </ul>
+  <p>Work experience</p>
+  
+  <ul>
+    <li>Company NGS.Technologies , 2012-present Novoibirsk, Russia Technical Support Provide technical support for NGS products
+Respond to customers and prospective customers inquiries (email, phone, social media)
+Contribute to the Knowledge Base
+Collaborate with the Engineering team
+</li>
+    
+  </ul>
+  <p>Special skills</p>
+  <ul>
+    <li>Native Russian</li>
+    <li>English-Intermediate</li>
+    <li>Computer literacy (Jira, TestLink, Microsoft Office, Outlook Express, 1C: Enterprise)</li>
+    <li>Driving License (Category B)</li>
+    <li>Hobbies: foreign languages, chess, Dance</li>
+  
+    
+  </ul>
+  
+  <a href="https://youtu.be/2SRVl1Qaz9w">My favorite videos on YouTube</a>	
+ 
+    
+  
+</body> 
+</html>
