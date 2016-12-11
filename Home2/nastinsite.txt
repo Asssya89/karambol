@@ -12,7 +12,7 @@
   <ul>
     <li>Name:	Anastaiya Konyaeva</li>
     <li>Address:	321 Studencheskaya Street, Novosibirsk, 630123, Russia</li>
-    <li>Phone number mobile: +7---</li>
+    <li>Phone number mobile: +79538084216</li>
     <li>Marital status:	Single</li>
     <li>Date of birth:	27th December 1989</li>
     <li>Nationality:	Russian</li>
