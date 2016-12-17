@@ -1,0 +1,25 @@
+class Testy(unittest.TestCase):
+ 
+   def setUp(self):
+
+        self.driver = webdriver.Firefox()
+
+        self.driver.implicitly_wait(30)
+
+        self.base_url = "https://github.com/" открыть сайт https://github.com/
+        self.verificationErrors = []
+
+        self.accept_next_alert = True
+
+    
+    
+def test_y(self):
+
+        driver = self.driver
+
+        driver.get(self.base_url + "/search?utf8=%E2%9C%93&q=selenium") в поиске написать selenium , нажать найти.
+        driver.find_element_by_link_text("SeleniumHQ/selenium").click() найти SeleniumHQ/selenium , кликнуть
+        driver.find_element_by_xpath("//div[@id='js-repo-pjax-container']/div/div[2]/nav/span[2]/a/span").click() Найти второй контейнер Issues , кликнуть по нему
+        driver.find_element_by_xpath("//a[contains(@href, '/SeleniumHQ/selenium/issues/3124')]").click() найти статью 3124, кникнуть по ней
+        self.assertTrue(self.is_element_present(By.LINK_TEXT, "http://localhost:40139/session/2f536599-92e4-49ad-aeee-284602e98973/screenshot"))
+ - убедиться, что в статье есть  ссылка http://localhost:40139/session/2f536599-92e4-49ad-aeee-284602e98973/screenshot
