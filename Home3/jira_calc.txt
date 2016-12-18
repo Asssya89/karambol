@@ -1,0 +1,13 @@
+http://qa-lab.cloud-pro.ru:8081/browse/CT-77
+http://qa-lab.cloud-pro.ru:8081/browse/CT-78
+http://qa-lab.cloud-pro.ru:8081/browse/CT-79
+http://qa-lab.cloud-pro.ru:8081/browse/CT-80
+http://qa-lab.cloud-pro.ru:8081/browse/CT-81
+http://qa-lab.cloud-pro.ru:8081/browse/CT-82
+http://qa-lab.cloud-pro.ru:8081/browse/CT-83
+http://qa-lab.cloud-pro.ru:8081/browse/CT-84
+http://qa-lab.cloud-pro.ru:8081/browse/CT-85
+http://qa-lab.cloud-pro.ru:8081/browse/CT-86
+http://qa-lab.cloud-pro.ru:8081/browse/CT-87
+http://qa-lab.cloud-pro.ru:8081/browse/CT-88
+http://qa-lab.cloud-pro.ru:8081/browse/CT-89
