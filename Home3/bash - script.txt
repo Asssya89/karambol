@@ -1,0 +1,41 @@
+#/!bin/bash указываем где у нас хранитс€ bash-интерпретатор
+
+options=(
+	'1'
+	"2"
+	'3'
+	'4'
+	'5' 
+)   выводим все файлы и папки в директории, где расположен скрипт
+echo 'Please choose an option'  ¬ы запустили скрипт  , здесь мы видим одинарные кавычки, разница в том, что в одинарных кавычках не происходит подстановки переменных.
+select input in "${options[@]}"; do
+	case "$input" in
+		"${options[0]}")
+			ls показать директории
+			;;
+		"${options[1]}")
+			date $'+Time: %T\nDate: %D' ¬ыводит текущую дату и врем€
+			;;
+		"${options[2]}")
+			read -p 'What file do you wish to check? ' finput
+			if [[ -d $finput ]]; then если выражение после if истино, то выполн€етс€ этот блок
+				format='%s is a directory.\n' 
+			elif [[ -f $finput ]]; then дл€ краткости и читаемости кода, можно использовать структуру elif
+				format='%s is a file.\n' then если выражение после if истино, то выполн€етс€ этот блок
+			else выражение после if ложно, тот этот
+				format='%s does not exist.\n' 
+			fi
+			printf "$format" "$finput"
+			;;
+		"${options[3]}")
+			read -p 'Please enter filename: ' binput
+			cp "$binput"{,.bak} ѕроводит копирование файлов в указанную директорию.
+			;;
+		"${options[4]}")
+			break ¬ыход из скрипта 
+			;;
+		*)
+			echo 'Not a valid option.'
+			;;
+	esac 
+done
