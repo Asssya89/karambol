@@ -1,0 +1,44 @@
+1. SELECT COUNT (CustomerName) from Customers
+WHERE country = 'Germany'
+COUNT (CustomerName) = 11
+
+2.SELECT CustomerName FROM Customers
+WHERE CustomerName LIKE '%e'
+Number of Records: 14
+CustomerName
+Alfreds Futterkiste
+Bottom-Dollar Marketse
+Chop-suey Chinese
+GROSELLA-Restaurante
+Hungry Coyote Import Store
+La corne d'abondance
+La maison d'Asie
+Lazy K Kountry Store
+Mere Paillarde
+Rancho grande
+Specialites du monde
+Split Rail Beer & Ale
+The Big Cheese
+Tortuga Restaurante
+
+5.Delete FROM Customers
+WHERE City = 'Nantes'
+You have made changes to the database. Rows affected: 2
+
+6.
+SELECT OrderID from Orders
+INNER JOIN Employees
+ON Employees.EmployeeID = Orders.EmployeeID
+WHERE Employees.FirstName = 'Steven'
+OrderID
+10248
+10254
+10269
+10297
+10320
+10333
+10358
+10359
+10372
+10378
+10397
